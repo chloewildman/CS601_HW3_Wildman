@@ -1,0 +1,225 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    background-color: #34495E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: larger;
+}
+
+img + h2 {
+    font-size: large;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.projectTitle::after {
+    content: " ↗ ";
+    color: black;
+}
+
+p {
+    padding: 3px;
+    line-height: 1.3;
+}
+
+body {
+    background-color: #2C3E50;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #BDC3C7;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1vw;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-top: 1vh;
+    padding:20px;
+}
+
+hr {
+    width: 60vw;
+    border-width: 1px;
+    border-color: #2C3E50;
+    opacity: 50%
+}
+
+.toTop {
+    top: 0px;
+    right: 15vw;
+    background-color: #ECF0F1;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.toTop::before {
+    content: " ↑ ";
+    color: black;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    width: 95%;
+    padding: 10px;
+}
+
+
+.project {
+    position: relative;
+    background-color: #ECF0F1;
+    text-align: left;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: visible;
+    transition: transform 0.9s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project:active {
+    transform: scale(0.95);
+}
+
+a:focus {
+    transform: scale(1.05);
+    background-color: white;
+}
+
+[class~="unavailable"] {
+    opacity: 70%;
+}
+
+[class~="unavailable"]:hover {
+    transform: none;
+}
+
+[class~="unavailable"]:after {
+    content: "";
+}
+
+.comingSoonBanner {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: black;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.projectPicture {
+    width: 98%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    height: 25vh;
+    padding: 2px;
+}
+
+.project>a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+
+header,
+footer {
+    grid-column: 1 / -1
+}
+
+.sidebar {
+    background-color: #ECF0F1;
+    padding: 10px;
+}
+
+.profilePhoto {
+    max-width: 90%;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.bio {
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+.item a {
+    display: block;
+    width: 6vw;
+    height: 6vh;
+    font-size: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.9s ease, box-shadow 0.2s ease;
+}
+
+.item a:hover {
+    transform: scale(1.05);
+}
+
+.item a:active {
+    transform: scale(0.85);
+}
+
+.linkedin {
+    background-image: url(/images/linkedin.svg);
+}
+
+.github {
+    background-image: url(/images/github.svg);
+}
+
+.email {
+    background-image: url(/images/email.svg);
+}
+
+.logo {
+    width: 7vw;
+    margin-bottom: 3px;
+}
