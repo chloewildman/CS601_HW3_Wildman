@@ -208,15 +208,15 @@ footer {
 }
 
 .linkedin {
-    background-image: url(./images/linkedin.svg);
+    background-image: url(../images/linkedin.svg);
 }
 
 .github {
-    background-image: url(./images/github.svg);
+    background-image: url(../images/github.svg);
 }
 
 .email {
-    background-image: url(./images/email.svg);
+    background-image: url(../images/email.svg);
 }
 
 .logo {
