@@ -223,3 +223,26 @@ footer {
     width: 7vw;
     margin-bottom: 3px;
 }
+
+@media (max-width: 850px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .profilePhoto {
+    max-width: 50vw;
+  }
+
+  .projectContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .item a {
+    width: 12vw;
+    height: 6vh;
+  }
+
+  .logo {
+    width: 18vw;
+  }
+}
