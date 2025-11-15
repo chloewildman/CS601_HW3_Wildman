@@ -64,9 +64,9 @@ I used the Corporate Elegance color palette: https://piktochart.com/tips/profess
 - Applied the following combinators
     - Descendant (space)
         - example: .item a {}
-    - child (>)
+    - Child (>)
         - example: .project > a {}
-    - sibling (+)
+    - Adjacent sibling (+)
         - example: img + h2 {}
 - Applied the attribute selector to control the appearancfe of unavailable/disabled elements. This is controlling the "coming soon!" project tile.
     - [class~="unavailable"]
