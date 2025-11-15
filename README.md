@@ -21,6 +21,7 @@ My general structure was inspired by the Wednesday lecture. In that lecture, the
 The use of reset.css and some CSS was inspired by the WAD100 course. Here are the key items I used as inspiration:
 - The use of reset.css (not really able to make this one unique!)
 - The strategy to decrease font-size to 0 and use background images to display the clickable icons.
+- Standard of limiting main content to 960px
 
 ### Previous experience
 
@@ -28,6 +29,8 @@ In my day job, I was tasked with customizing a Help Center for my team, so I hav
 
 ### Online resources
 Did some research to make the formatted line in the footer: https://www.w3schools.com/tags/tag_hr.asp 
+
+HTML & CSS only hamburger nav bar on mobile: https://codepel.com/navigation/pure-css-navbar/
 
 I used Canva to build my CW logo: https://www.canva.com/
 
@@ -79,4 +82,7 @@ I used the Corporate Elegance color palette: https://piktochart.com/tips/profess
 
 
 ## How My Project Exceeds Minimum Requirements
-There are not defined criteria in the assignment for what would exceed minimum requirements, but I spent even more time on this assignment this week than I have on the previous assignments (and I'm taking my time on these to try and make the most of them). I found this one particularly motivating since it felt like it had more utility for me. I tried to take the opportunity to combine the different tools we learned this week beyond just implementing them individually to meet requirements. I think this site has turned out visually appealing and professional on both desktop and mobile, so I hope it has exceeded requirements.
+- I tested on multiple devices.
+- I hosted this on GitHub pages, which helped me identify small issues that my local host wasn't detecting and gave me the opportunity to actually see it on my mobile device.
+- Added multiple images and real world examples.
+- I spent a lot of time on this assignment to make it visually appealing and professional.
