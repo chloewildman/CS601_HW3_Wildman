@@ -5,23 +5,24 @@ To meet the assignment requirements, I built a single page portfolio containing 
 To test this page, please try the following test cases:
 - View the page on a desktop.
 - View the page on a mobile device.
+    - When on a mobile device, select the menu
 - Hover over clickable elements such as the project tiles and the LinkedIn, Github, and email icons.
 - Tab through the elements (to activate :focus styling).
-- Scroll the the bottom and select "Back to Top".
+- Scroll to the bottom and select "Back to Top".
 - Hover over/try to click the "coming soon!" project, which is unavailable.
 
 ## Inspiration/Acknowledgements/Previous Experience
 
 ### Module 3 Content
 
-My general structure was inspired by the Wednesday lecture. In that lecture, the professor used the grid format consisting of the header, main (with sidebar and additional content) and the footer. This looked clean and manageable, so I implemented a similar format, with an additional grid to organize my projects separately.
+My general structure was inspired by the Wednesday lecture. In that lecture, the professor used the grid format consisting of the header, main (with sidebar and additional content) and the footer. This looked clean and manageable, so I implemented a similar format, with an additional grid within to organize my projects separately.
 
 ### WAD100 Course
 
 The use of reset.css and some CSS was inspired by the WAD100 course. Here are the key items I used as inspiration:
 - The use of reset.css (not really able to make this one unique!)
 - The strategy to decrease font-size to 0 and use background images to display the clickable icons.
-- Standard of limiting main content to 960px
+- Standard of limiting main content to 960px.
 
 ### Previous experience
 
@@ -30,7 +31,7 @@ In my day job, I was tasked with customizing a Help Center for my team, so I hav
 ### Online resources
 Did some research to make the formatted line in the footer: https://www.w3schools.com/tags/tag_hr.asp 
 
-HTML & CSS only hamburger nav bar on mobile: https://codepel.com/navigation/pure-css-navbar/
+Guidance for HTML & CSS only hamburger nav bar on mobile: https://codepel.com/navigation/pure-css-navbar/
 
 I used Canva to build my CW logo: https://www.canva.com/
 
@@ -41,7 +42,7 @@ I used the Corporate Elegance color palette: https://piktochart.com/tips/profess
 ### Web Page Structure
 - My single-page portfolio contains:
     - header
-        - contains logo and title
+        - contains logo, title, and at least 4 navigation links
     - footer
         - contains copyright details and navigation links (back to top)
     - main
@@ -85,4 +86,4 @@ I used the Corporate Elegance color palette: https://piktochart.com/tips/profess
 - I tested on multiple devices.
 - I hosted this on GitHub pages, which helped me identify small issues that my local host wasn't detecting and gave me the opportunity to actually see it on my mobile device.
 - Added multiple images and real world examples.
-- I spent a lot of time on this assignment to make it visually appealing and professional.
+- In terms of effort, I spent a ton of time and effort on this assignment, even more-so than our previous assignments (and I'm taking my time with them to make the best of them). I tried to go beyond just implementing each requirement to mix and match and really understand the material. I think the result is visually appealing and professional. 
